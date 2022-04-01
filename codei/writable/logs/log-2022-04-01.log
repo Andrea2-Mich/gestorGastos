@@ -1125,3 +1125,38 @@ CRITICAL - 2022-04-01 04:59:18 --> Undefined array key "id_usuario"
 #7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #9 {main}
+CRITICAL - 2022-04-01 10:35:41 --> syntax error, unexpected identifier "z"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/mostrarReg...')
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Home/mostrarReg...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 10:36:41 --> Undefined array key "monto"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 138)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->actualizarRegistro_gas('11')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 10:40:39 --> Undefined array key "monto"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 137)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->actualizarRegistro_gas('11')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 10:40:43 --> Undefined array key "monto"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 137)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->actualizarRegistro_gas('11')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 10:41:18 --> Undefined array key "id_gasto"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 105)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->buscarRegistro_gas('11')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

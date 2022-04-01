@@ -32,6 +32,10 @@
                     <td><?php echo $gastos['fecha']; ?></td>
                     <td><?php echo $gastos['descripcion']; ?></td>
                     <td>
+                        <a type="button" href="../Home/buscarRegistro_gas/<?php echo $gastos['id_gasto']; ?>">Modificar
+                            gasto</a>
+                    </td>
+                    <td>
                         <a type="button"
                             href="../Home/eliminarRegistro_gas/<?php echo $gastos['id_gasto']; ?>">Eliminar</a>
                     </td>

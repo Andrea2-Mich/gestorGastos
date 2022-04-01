@@ -99,6 +99,14 @@ class Home extends BaseController
         
     }
 
+            //Buscar registro
+    public function buscarRegistro_gas($id){
+        $mGastos = new mGastos();
+        $id_gasto = $id;
+        $gasto = $mGastos -> find($id_gasto);
+        return view("vRegistroEncontrado_gas", $gasto);     
+    }
+
     public function registro_gas(){
         return view("vRegistro_gas");
 
@@ -122,25 +130,16 @@ class Home extends BaseController
         return view("vSuccess_gas", $datoId);
     }
 
-
-        //Buscar registro
-    public function buscarRegistro_gas(){
-        $mGastos = new mGastos();
-        $id_gasto = $_POST['id_gasto'];
-        $gasto = $mGastos -> find($id_gasto);
-        return view("vRegistroEncontrado_gas", $gasto);     
-    }
-
         //Actualizar registro
-    public function actualizarRegistro_gas(){
+    public function actualizarRegistro_gas($id){
         $mGastos = new mGastos();
-        $id_gasto = $_POST['id_gasto'];
+        $id_gasto = $id;
         $gastoActualizado = ["monto" => $_POST['monto'], "fecha" => $_POST['fecha'], "descripcion" => $_POST['descripcion'], "categoria" => $_POST['categoria']];
         $mGastos -> update($id_gasto, $gastoActualizado);
 
-        $user = $mGastos -> where('id_gasto', $_POST['id_gasto']) -> where('id_usuario', $_POST['id_gasto']) -> first();
+        $user = $mGastos -> where('id_gasto', $id_gasto) -> first();
 
-        return $this -> mostrarRegistro_gas(); 
+        return $this -> mostrarRegistros_gas(); 
     }
     
     public function eliminarRegistro_gas($id){
