@@ -1,0 +1,52 @@
+CRITICAL - 2022-03-31 22:24:01 --> Class "App\Models\mUsuarios" not found
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->insertarForm_us()
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-31 22:26:38 --> Class "App\Models\mUsuarios" not found
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->insertarForm_us()
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-31 22:27:32 --> Class "App\Models\mUsuarios" not found
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->insertarForm_us()
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-31 22:29:41 --> Class "App\Models\mUsuarios" not found
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->insertarForm_us()
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-31 22:31:12 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vIngreso.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vIngreso', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(49): view('vIngreso', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->ingresarForm_us()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 22:33:52 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vIngreso', Array, true)
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(49): view('vIngreso', Array)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->ingresarForm_us()
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-31 22:45:42 --> Undefined variable $correo_electronico
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 67)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->actualizarRegistro_us()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

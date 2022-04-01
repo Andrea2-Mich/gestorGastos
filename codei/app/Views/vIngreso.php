@@ -13,7 +13,6 @@
                     <th>ID</th>
                     <th>USUARIO</th>
                     <th>CONTRASEÑA</th>
-                    <th>ELIMINAR PERFIL</th>
                 </tr>
             </thead>
 
@@ -22,9 +21,6 @@
                     <td><?php echo $id_usuario; ?></td>
                     <td><?php echo $correo_electronico; ?></td>
                     <td><?php echo $contrasenia; ?></td>
-                    <td><a type="button"
-                            href="<?php echo base_url();?>/Home/eliminarRegistro/<?php echo $usuario['id_usuario']; ?>">Eliminar</a>
-                    </td>
                 </tr>
             </tbody>
         </table>
@@ -32,6 +28,10 @@
             <input type="hidden" name="id_usuario" value="<?php echo $id_usuario; ?>">
             <button type="submit">Actualizar Datos</button>
         </form>
+        <br><br>
+        <a href="..Home/"></a>
+        <br><br>
+        <a type="button" href="../Home/eliminarRegistro_us/<?php echo $id_usuario; ?>">Eliminar perfil</a>
     </div>
 </body>
 

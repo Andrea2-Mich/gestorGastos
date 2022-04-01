@@ -20,22 +20,21 @@ class Home extends BaseController
 
         //Registro ususario
     public function registro_us(){
-        return view('vRegistro_us');
+        return view('vRegistro');
     }
     
         //registrar nuevo ususario
     public function insertarForm_us(){
         $mUsuarios = new mUsuarios();
         
-        $nuevoUsuario = [         
-            "usuario" => $_POST['usuario'],
+        $nuevoUsuario = [                     
             "correo_electronico" => $_POST['correo_electronico'],
             "contrasenia" => $_POST['contrasenia']            
         ];
 
-        $mUsuario -> insert($nuevoUsuario);
+        $mUsuarios -> insert($nuevoUsuario);
         
-        $datoId['idRegistrado'] = $mUsuario -> db -> insertID();
+        $datoId['idRegistrado'] = $mUsuarios -> db -> insertID();
 
         return view("vSuccess_us", $datoId);
     }
@@ -62,10 +61,10 @@ class Home extends BaseController
     public function actualizarRegistro_us(){
         $mUsuarios = new mUsuarios();
         $id_usuario = $_POST['id_usuario'];
-        $usuarioActualizado = ["correo_electronico" => $_POST['correo_electronico'], "contrasenia" =>$_POST['contrasenia']];
+        $usuarioActualizado = ["correo_electronico" => $_POST['correo_electronico'], "contrasenia" => $_POST['contrasenia']];
         $mUsuarios -> update($id_usuario, $usuarioActualizado);
 
-        $user = $mUsuarios -> where('correo_electronico', $correo_electronico) -> where('contrasenia', $contrasenia) -> first();
+        $user = $mUsuarios -> where('correo_electronico', $_POST['correo_electronico']) -> where('contrasenia', $_POST['contrasenia']) -> first();
 
         return view("vIngreso", $user); 
     }
@@ -76,7 +75,7 @@ class Home extends BaseController
         $id_usuario = $id;
         $mUsuarios -> delete($id_usuario);
 
-
+        //checar Funcionalidad
         $todos_gasto = $mGastos->findAll();
         $gasto = array('gasto'=>$todos_gasto);
 
@@ -108,3 +107,5 @@ class Home extends BaseController
         return view("vRegistroEncontrado", $usuario);   
     }
 }
+
+?>

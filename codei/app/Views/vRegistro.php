@@ -8,7 +8,7 @@
 <body>
     <div class="container">
         <h1>Registro de usuario nuevo</h1>
-        <form action="<?php echo base_url();?>/Home/insertarForm_us" method="POST">
+        <form action="../Home/insertarForm_us" method="POST">
             <label for="correo_electronico">correo</label>
             <input type="email" name="correo_electronico" id="correo_electronico" placeholder="email@example.com">
             <br>
