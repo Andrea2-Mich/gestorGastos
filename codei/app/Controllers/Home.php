@@ -148,7 +148,7 @@ class Home extends BaseController
     }
 
     public function eliminarRegistro_gas($id){
-        $mGastos = new mGa$mGastos();
+        $mGastos = new $mGastos();
         $id_gasto = $id;
         $mGastos -> delete($id_gasto);
 
