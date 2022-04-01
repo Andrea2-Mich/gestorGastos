@@ -91,20 +91,75 @@ class Home extends BaseController
 //=====================================================================================================================================================
     //Gastos
 
+    public function mostrarRegistros_gas(){
+        $mGastos = new mGastos();
+        $todos = $mGastos->findAll();
+        $id_usuario = $_POST['id_usuario'];
+        $gastos = array('gastos'=>$todos);
 
-    public function mostrarRegistros(){
-        $mUsuarios = new mUsuarios();
-        $todos = $mUsuarios->findAll();
-        $usuarios = array('usuarios'=>$todos);
-
-        return view("vRegistros",$usuarios);
+        return view("vRegistros_gas",$gastos);
     }
 
-    public function buscarRegistro(){
-        $mUsuarios = new mUsuarios();
-        $id_usuario = $_POST['id_usuario'];
-        $usuario = $mUsuarios -> find($id_usuario);
-        return view("vRegistroEncontrado", $usuario);   
+
+    public function insertarForm_gas(){
+        $mGastos = new mGastos();
+        
+        $nuevoUsuario = [                     
+            "id_usuario" => $_POST['id_usuario'],
+            "monto" => $_POST['monto'],
+            "fecha" => $_POST['fecha'],
+            "descripcion" => $_POST['descripcion'],
+            "categoria" => $_POST['categoria']     
+        ];
+
+        $mGastos -> insert($nuevoUsuario);
+        
+        $datoId['idRegistrado'] = $mGastos -> db -> insertID();
+
+        return view("vSuccess_gas", $datoId);
+    }
+
+
+        //Buscar registro
+    public function buscarRegistro_gas(){
+        $mGastos = new mGastos();
+        $id_gasto = $_POST['id_gasto'];
+        $gasto = $mGastos -> find($id_gasto);
+        return view("vRegistroEncontrado_gas", $gasto);     
+    }
+
+        //Actualizar registro
+    public function actualizarRegistro_gas(){
+        $mGastos = new mGastos();
+        $id_gasto = $_POST['id_gasto'];
+        $gastoActualizado = ["monto" => $_POST['monto'], "fecha" => $_POST['fecha'], "descripcion" => $_POST['descripcion'], "categoria" => $_POST['categoria']];
+        $mGastos -> update($id_gasto, $usuarioActualizado_gas);
+
+        $user = $mGastos -> where('id_gasto', $_POST['id_gasto']) -> where('id_usuario', $_POST['id_gasto']) -> first();
+
+        return view("vmostrarRegistro_gas", $user); 
+    }
+    
+    public function buscarRegistro_gas(){
+        $mGastos = new mGastos();
+        $id_gasto = $_POST['id_gasto'];
+        $gastos = $mGastos -> find($id_gasto);
+        return view("vRegistroEncontrado_gas", $gastos);   
+    }
+
+    public function eliminarRegistro_gas($id){
+        $mGastos = new mGa$mGastos();
+        $id_gasto = $id;
+        $mGastos -> delete($id_gasto);
+
+        //checar Funcionalidad
+        $todos_gasto = $mGastos->findAll();
+        $gastos = array('gasto'=>$todos_gasto);
+
+
+        $mGastos -> delete($gastos, $id_usuario);
+        
+        return view('vmostrarRegistros_gas');
     }
 }
 
