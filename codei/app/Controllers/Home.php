@@ -133,7 +133,7 @@ class Home extends BaseController
         $mGastos = new mGastos();
         $id_gasto = $_POST['id_gasto'];
         $gastoActualizado = ["monto" => $_POST['monto'], "fecha" => $_POST['fecha'], "descripcion" => $_POST['descripcion'], "categoria" => $_POST['categoria']];
-        $mGastos -> update($id_gasto, $usuarioActualizado_gas);
+        $mGastos -> update($id_gasto, $gastoActualizado_gas);
 
         $user = $mGastos -> where('id_gasto', $_POST['id_gasto']) -> where('id_usuario', $_POST['id_gasto']) -> first();
 
@@ -152,7 +152,7 @@ class Home extends BaseController
         $gastos = array('gasto'=>$todos_gasto);
 
 
-        $mGastos -> delete($gastos, $id_usuario);
+        $mGastos -> delete($gastos, $id_gasto);
         
         return view('vmostrarRegistros_gas');
     }
