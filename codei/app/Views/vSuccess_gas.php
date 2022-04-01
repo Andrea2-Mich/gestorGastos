@@ -1,3 +1,6 @@
+<?php
+    $id_usuario = $_POST['id_usuario'];
+?>
 <!DOCTYPE html>
 
 <head>
@@ -7,9 +10,11 @@
 <body>
     <div class="container">
         <p>Se ha registrado el gasto, con numero identificador: <?php echo $idRegistrado; ?></p>
-        <a href="../Home/vmostrarRegistros_gas">
-            <button type="submit">Salir a mostrar gastos</button>
-        </a>
+
+        <form method="POST" action="../Home/mostrarRegistros_gas">
+            <input type="hidden" name="id_usuario" id="id_usuario" value="<?php echo $id_usuario; ?> ">
+            <button type="submit">Mostrar gastos</button>
+        </form>
     </div>
 </body>
 

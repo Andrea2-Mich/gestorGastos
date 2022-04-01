@@ -20,8 +20,16 @@
             <button type="submit">Actualizar Datos</button>
         </form>
 
-        <a href="..Home/mostrarRegistros_gas/<?php echo $id_usuario; ?>"><button type="submit">Ver Gastos</button></a>
-        <br><br>
+
+        <form method="POST" action="../Home/mostrarRegistros_gas">
+            <input type="hidden" name="id_usuario" value="<?php echo $id_usuario; ?>">
+            <button type="submit">Ver Gastos</button>
+        </form>
+
+
+        <!--
+        <a href="../Home/mostrarRegistros_gas"><button type="submit">Ver Gastos</button></a>
+        -->
         <br><br>
         <a href="../Home/eliminarRegistro_us/<?php echo $id_usuario; ?>"><button type="submit">Eliminar
                 Usuario</button></a>

@@ -1,0 +1,1127 @@
+CRITICAL - 2022-04-01 00:40:08 --> syntax error, unexpected variable "$mGastos"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/actualizar...')
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Home/actualizar...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 00:41:09 --> Cannot redeclare App\Controllers\Home::buscarRegistro_gas()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-01 00:52:13 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 97)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 00:53:05 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 97)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 00:53:28 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 97)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas('1')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 00:55:58 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 97)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas('1')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 01:00:56 --> Undefined constant "App\Controllers\vRegistro_gas"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->registro_gas()
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-01 01:10:30 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 112)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->insertarForm_gas()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 01:11:52 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 112)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->insertarForm_gas()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 01:11:58 --> Undefined variable $id_usuario
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistro_gas.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistro_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(104): view('vRegistro_gas')
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->registro_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:16:42 --> Undefined variable $id_usuario
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(100): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:17:17 --> Undefined array key "id_ususario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(100): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:23:34 --> view(): Argument #3 ($options) must be of type array, string given, called in C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php on line 100
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(100): view('vRegistros_gas', Array, '1')
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 01:24:28 --> Undefined variable $id_usuario
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(100): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:26:52 --> Undefined variable $id_usuario
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(100): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:37:33 --> Undefined variable $id_usuario
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistro_gas.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistro_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(104): view('vRegistro_gas')
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->registro_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:38:28 --> Undefined variable $id_usuario
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistro_gas.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistro_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(104): view('vRegistro_gas')
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->registro_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:40:53 --> Undefined variable $id_usuario
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistro_gas.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistro_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(104): view('vRegistro_gas')
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->registro_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:42:03 --> Undefined array key "id_ususario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistro_gas.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistro_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(104): view('vRegistro_gas')
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->registro_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:49:45 --> Undefined array key "id_ususario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistro_gas.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistro_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(111): view('vRegistro_gas')
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->registro_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:51:18 --> Undefined array key "id_ususario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistro_gas.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistro_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(111): view('vRegistro_gas')
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->registro_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 01:54:18 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 96)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 01:55:07 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(107): view('vRegistros_gas', Array)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-01 01:55:27 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(107): view('vRegistros_gas', Array)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-01 01:55:49 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(107): view('vRegistros_gas', Array)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-01 01:57:29 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(107): view('vRegistros_gas', Array)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-01 02:01:12 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php on line 57
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(57): view('vRegistroEncont...', NULL)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->buscarRegistro_us()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 02:01:52 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php on line 57
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(57): view('vRegistroEncont...', NULL)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->buscarRegistro_us()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 02:02:29 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(107): view('vRegistros_gas', Array)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-01 02:07:05 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(107): view('vRegistros_gas', Array)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-01 02:07:08 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(107): view('vRegistros_gas', Array)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-01 02:09:02 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(107): view('vRegistros_gas', Array)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-01 02:09:45 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(107): view('vRegistros_gas', Array)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-01 02:10:45 --> Unclosed '{' on line 23
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(107): view('vRegistros_gas', Array)
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-01 02:11:50 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(107): view('vRegistros_gas', Array)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-01 02:12:28 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(107): view('vRegistros_gas', Array)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-01 02:16:45 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(107): view('vRegistros_gas', Array)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-01 02:17:07 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 96)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 02:22:40 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 96)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 02:23:28 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 96)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 02:24:05 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 96)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 02:24:35 --> Undefined variable $gastos
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(99): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 02:25:52 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(99): view('vRegistros_gas', Array)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-01 02:29:53 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(99): view('vRegistros_gas', Array)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-01 02:30:30 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(99): view('vRegistros_gas', Array)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-01 02:30:48 --> Undefined variable $gastos
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(99): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 02:30:58 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(99): view('vRegistros_gas', Array)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-01 02:31:46 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/mostrarReg...')
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Home/mostrarReg...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 02:32:03 --> Undefined variable $mUsuarios
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 103)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 02:32:16 --> Undefined variable $gastos
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(105): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 02:33:41 --> Undefined variable $id_usuario
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(105): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 02:52:38 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistro_gas.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistro_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(110): view('vRegistro_gas')
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->registro_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 02:54:25 --> Undefined variable $id_usuario
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistro_gas.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistro_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(110): view('vRegistro_gas')
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->registro_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 02:55:48 --> Undefined variable $id_usuario
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistro_gas.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistro_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(110): view('vRegistro_gas')
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->registro_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 02:57:10 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(105): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 03:00:13 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(105): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 03:01:44 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(105): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 03:05:24 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(105): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 03:06:57 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(105): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 03:08:23 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(105): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 03:09:49 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(105): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 03:11:33 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(105): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 03:13:31 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(105): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 03:17:27 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(105): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 03:18:58 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(105): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 03:19:30 --> Undefined variable $mGastos
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 154)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas('3')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 03:20:10 --> Undefined variable $id_usuario
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 163)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas('3')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 03:20:40 --> Invalid file: vmostrarRegistros_gas.php
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vmostrarRegistr...')
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vmostrarRegistr...', Array, true)
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(158): view('vmostrarRegistr...')
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas('3')
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-01 03:21:01 --> Invalid file: mostrarRegistros_gas.php
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mostrarRegistro...')
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('mostrarRegistro...', Array, true)
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(158): view('mostrarRegistro...')
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas('3')
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-01 03:21:08 --> Too few arguments to function App\Controllers\Home::eliminarRegistro_gas(), 0 passed in C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas()
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-01 03:21:22 --> Invalid file: mostrarRegistros_gas.php
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mostrarRegistro...')
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('mostrarRegistro...', Array, true)
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(158): view('mostrarRegistro...')
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas('3')
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-01 03:21:40 --> Invalid file: mostrarRegistros_gas.php
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mostrarRegistro...')
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('mostrarRegistro...', Array, true)
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(158): view('mostrarRegistro...')
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas('3')
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-01 03:22:25 --> Invalid file: mostrarRegistros_gas.php
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mostrarRegistro...')
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('mostrarRegistro...', Array, true)
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(158): view('mostrarRegistro...')
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas('2')
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-01 03:23:57 --> Invalid file: mostrarRegistros_gas.php
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mostrarRegistro...')
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('mostrarRegistro...', Array, true)
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(158): view('mostrarRegistro...')
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas('2')
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-01 03:25:41 --> Undefined property: App\Controllers\Home::$mostrarRegistros_gas
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 158)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas('2')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 03:26:41 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(105): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(158): App\Controllers\Home->mostrarRegistros_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas('2')
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-01 03:28:06 --> Undefined variable $id_usuario
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(105): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(158): App\Controllers\Home->mostrarRegistros_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas('2')
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-01 03:55:41 --> Undefined array key "id_ususario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 148)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas('2')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 04:00:30 --> Undefined array key "id_ususario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 148)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas('2')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 04:01:33 --> Undefined array key "id_ususario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 148)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas('2')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 04:01:55 --> syntax error, unexpected token "echo"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(98): view('vRegistros_gas', Array)
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-01 04:02:17 --> Undefined array key "categoria"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(98): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 04:02:45 --> Undefined variable $id_usuario
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(98): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 04:03:09 --> Undefined variable $id_usuario
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(98): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 04:06:18 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(98): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 04:06:40 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(98): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 04:08:22 --> Undefined array key "id_ususario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 148)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 04:08:40 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 148)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 04:09:26 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 148)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 04:10:20 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 148)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 04:11:03 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 148)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 04:12:22 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 148)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 04:13:20 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 148)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 04:15:32 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 148)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 04:16:41 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 148)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 04:17:23 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 148)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 04:18:12 --> Undefined array key "id_gasto"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 148)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 04:22:29 --> Undefined array key "id_gasto"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 148)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 04:26:01 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(98): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(152): App\Controllers\Home->mostrarRegistros_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas('7', '1')
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-01 04:27:00 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(98): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(152): App\Controllers\Home->mostrarRegistros_gas('1')
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas('7', '1')
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-01 04:27:41 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(99): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(153): App\Controllers\Home->mostrarRegistros_gas('1')
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas('7', '1')
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-01 04:28:11 --> Too few arguments to function App\Controllers\Home::mostrarRegistros_gas(), 0 passed in C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-01 04:29:51 --> Too few arguments to function App\Controllers\Home::mostrarRegistros_gas(), 0 passed in C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-01 04:29:57 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(99): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas('1')
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 04:30:47 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(99): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas('1')
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 04:32:22 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(99): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas('1')
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 04:34:00 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php on line 49
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(49): view('vIngreso', NULL)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->ingresarForm_us()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 04:34:27 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(99): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas('1')
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 04:35:28 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(99): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas('1')
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 04:36:00 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php on line 49
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(49): view('vIngreso', NULL)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->ingresarForm_us()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 04:36:19 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(99): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas('1')
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 04:37:01 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(98): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 04:39:16 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(98): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros_gas('1')
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 04:42:45 --> Too few arguments to function App\Controllers\Home::eliminarRegistro_gas(), 1 passed in C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php on line 825 and exactly 2 expected
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas('8')
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-01 04:44:03 --> Too few arguments to function App\Controllers\Home::eliminarRegistro_gas(), 1 passed in C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php on line 825 and exactly 2 expected
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas('8')
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-01 04:44:04 --> Too few arguments to function App\Controllers\Home::eliminarRegistro_gas(), 1 passed in C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php on line 825 and exactly 2 expected
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas('8')
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-01 04:44:18 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php on line 49
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(49): view('vIngreso', NULL)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->ingresarForm_us()
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 04:44:41 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(98): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(152): App\Controllers\Home->mostrarRegistros_gas()
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas('8', '1')
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-01 04:56:22 --> syntax error, unexpected token ",", expecting ";"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/eliminarRe...')
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Home/eliminarRe...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 04:56:28 --> syntax error, unexpected token ",", expecting ";"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/eliminarRe...')
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Home/eliminarRe...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 04:56:37 --> syntax error, unexpected token ",", expecting ";"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/eliminarRe...')
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Home/eliminarRe...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 04:57:51 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(156): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas('Home', 'login')
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-01 04:59:01 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php on line 156
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(156): view('vRegistros_gas', 'login')
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas('Home', 'login')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 04:59:18 --> Undefined array key "id_usuario"
+#0 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Views\vRegistros_gas.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\8vo\gestorGastos\codei\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\8vo\gestorGastos\codei\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros_gas', Array, true)
+#4 C:\xampp\htdocs\8vo\gestorGastos\codei\app\Controllers\Home.php(156): view('vRegistros_gas', Array)
+#5 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro_gas('Home', 'login')
+#6 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\gestorGastos\codei\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\gestorGastos\codei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

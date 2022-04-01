@@ -91,15 +91,18 @@ class Home extends BaseController
 //=====================================================================================================================================================
     //Gastos
 
-    public function mostrarRegistros_gas(){
-        $mGastos = new mGastos();
-        $todos = $mGastos->findAll();
-        $id_usuario = $_POST['id_usuario'];
-        $gastos = array('gastos'=>$todos);
-
+    public function mostrarRegistros_gas(){  
+        $mGastos = new mGastos();        
+        $todos = $mGastos -> findAll();
+        $gastos = array('gastos' => $todos );
         return view("vRegistros_gas",$gastos);
+        
     }
 
+    public function registro_gas(){
+        return view("vRegistro_gas");
+
+    }
 
     public function insertarForm_gas(){
         $mGastos = new mGastos();
@@ -133,28 +136,19 @@ class Home extends BaseController
         $mGastos = new mGastos();
         $id_gasto = $_POST['id_gasto'];
         $gastoActualizado = ["monto" => $_POST['monto'], "fecha" => $_POST['fecha'], "descripcion" => $_POST['descripcion'], "categoria" => $_POST['categoria']];
-        $mGastos -> update($id_gasto, $usuarioActualizado_gas);
+        $mGastos -> update($id_gasto, $gastoActualizado);
 
         $user = $mGastos -> where('id_gasto', $_POST['id_gasto']) -> where('id_usuario', $_POST['id_gasto']) -> first();
 
-        return view("vmostrarRegistro_gas", $user); 
+        return $this -> mostrarRegistro_gas(); 
     }
     
-
-
     public function eliminarRegistro_gas($id){
-        $mGastos = new $mGastos();
+        $mGastos = new mGastos();        
         $id_gasto = $id;
         $mGastos -> delete($id_gasto);
 
-        //checar Funcionalidad
-        $todos_gasto = $mGastos->findAll();
-        $gastos = array('gasto'=>$todos_gasto);
-
-
-        $mGastos -> delete($gastos, $id_usuario);
-        
-        return view('vmostrarRegistros_gas');
+        return $this->login();
     }
 }
 
