@@ -6,32 +6,25 @@
 
 <body>
     <div class="container">
-        <h1>Registro actual de ingreso</h1>
-        <table>
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>USUARIO</th>
-                    <th>CONTRASEÑA</th>
-                </tr>
-            </thead>
+        <h1>Bienvenido al control de gastos</h1>
 
-            <tbody>
-                <tr>
-                    <td><?php echo $id_usuario; ?></td>
-                    <td><?php echo $correo_electronico; ?></td>
-                    <td><?php echo $contrasenia; ?></td>
-                </tr>
-            </tbody>
-        </table>
+        <fieldset>
+            <h3>Datos de Usuario</h3>
+            <?php echo $correo_electronico; ?>
+            <br>
+            <?php echo $contrasenia; ?>
+        </fieldset>
+        <br>
         <form method="POST" action="../Home/buscarRegistro_us">
             <input type="hidden" name="id_usuario" value="<?php echo $id_usuario; ?>">
             <button type="submit">Actualizar Datos</button>
         </form>
+
+        <a href="..Home/mostrarRegistros_gas/<?php echo $id_usuario; ?>"><button type="submit">Ver Gastos</button></a>
         <br><br>
-        <a href="..Home/"></a>
         <br><br>
-        <a type="button" href="../Home/eliminarRegistro_us/<?php echo $id_usuario; ?>">Eliminar perfil</a>
+        <a href="../Home/eliminarRegistro_us/<?php echo $id_usuario; ?>"><button type="submit">Eliminar
+                Usuario</button></a>
     </div>
 </body>
 
