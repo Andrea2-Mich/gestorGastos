@@ -140,12 +140,7 @@ class Home extends BaseController
         return view("vmostrarRegistro_gas", $user); 
     }
     
-    public function buscarRegistro_gas(){
-        $mGastos = new mGastos();
-        $id_gasto = $_POST['id_gasto'];
-        $gastos = $mGastos -> find($id_gasto);
-        return view("vRegistroEncontrado_gas", $gastos);   
-    }
+
 
     public function eliminarRegistro_gas($id){
         $mGastos = new $mGastos();
